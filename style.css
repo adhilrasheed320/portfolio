@@ -1,0 +1,121 @@
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 5px 0;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 14px;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    flex: 1;
+}
+
+.intro-name {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.intro-text {
+    color: #555;
+    font-size: 16px;
+}
+.home-photo {
+    width: 220px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+
+
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+
+footer{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color:#333;
+}
+
+
+.page-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.edu-section {
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    text-align: left;
+}
+
+.edu-section h3 {
+    margin-bottom: 5px;
+}
+
+.edu-section p {
+    margin: 2px 0;
+    color: #555;
+}
+
+
+.skills-list {
+    list-style: none;          
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;         
+}
+
+.skills-list li {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 12px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.03);
+}
